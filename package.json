@@ -1,0 +1,26 @@
+{
+  "name": "dvm-search-demo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bunx vite",
+    "build": "bunx vite build",
+    "preview": "bunx vite preview"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.14.1",
+    "vite": "^6.3.2",
+    "vite-plugin-solid": "^2.11.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "babel-preset-solid": "^1.9.5",
+    "rx-nostr": "^3.6.1",
+    "rxjs": "^7.8.2",
+    "solid-js": "^1.9.5"
+  }
+}
